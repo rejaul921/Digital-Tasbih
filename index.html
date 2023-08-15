@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Tasbih</title>
+    <link rel="shortcut icon" href="./img/tasbih.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section>
+        <div class="items-center text-center">
+            <h1 class="font-bold text-5xl m-10 lg:m-24 text-teal-700">Digital Tasbih</h1>
+        </div>
+        <div class="md: grid grid-cols-1 pt-5 lg:flex justify-around px-8 lg:pt-8">
+            <div class="bg-base-100 shadow-xl">
+                <div class="card-body text-center">
+                    <h2 class="text-3xl text-center font-bold">Subhan Allah</h2>
+                    <p id="subhanAllahNumber" class="text-center text-2xl font-bold">0</p>
+                    <div class="text-center gap-5">
+                        <button id="subhanAllahIncreamentBtn" class="btn bg-green-600">Increase</button>
+                        <button id="subhanAllahDecreamentBtn" class="btn bg-pink-600">Decrease</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-base-100 shadow-xl">
+                <div class="card-body text-center">
+                    <h2 class="text-3xl text-center font-bold">Alhamdulillah</h2>
+                    <p id="AlhamdulillahNumber" class="text-center text-2xl font-bold">0</p>
+                    <div class="text-center gap-5">
+                        <button id="AlhamdulillahIncreamentBtn" class="btn bg-green-600">Increase</button>
+                        <button id="AlhamdulillahDecreamentBtn" class="btn bg-pink-600">Decrease</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-base-100 shadow-xl">
+                <div class="card-body text-center">
+                    <h2 class="text-3xl text-center font-bold">Allahu Akbar</h2>
+                    <p id="AkbarNumber" class="text-center text-2xl font-bold">0</p>
+                    <div class="text-center gap-5">
+                        <button id="AkbarIncreamentBtn" class="btn bg-green-600">Increase</button>
+                        <button id="AkbarDecreamentBtn" class="btn bg-pink-600">Decrease</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-10">
+            <div id="reSetBtn" class="btn btn-accent">Reset All</div>
+        </div>
+    </section>
+    <section class="bg-stone-600 mx-auto">
+        <footer class="p-10 text-center text-white">
+            <p class="text-lg font-medium"> All rights reserved By <a href="https://www.facebook.com/rejaul.korim.52"><span class="text-red-800 text-2xl font-bold">Rejaul Karim</span></a></p>
+        </footer>
+    </section>
+    <script src="./js.js"></script>
+</body>
+
+</html>
